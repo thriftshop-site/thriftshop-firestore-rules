@@ -52,4 +52,4 @@ In Flutter run `firebase emulators:start`
 [![Actions Status][gh-actions-badge]][gh-actions]
 
 [gh-actions]: https://github.com/thriftshop-site/thriftshop-firestore-rules/actions
-[gh-actions-badge]: https://github.com/actions/thriftshop-site/workflows/.github/workflows/test.yml/badge.svg
+![CI Tests](https://github.com/thriftshop-site/thriftshop-firestore-rules/workflows/CI%20Tests/badge.svg?branch=main)
