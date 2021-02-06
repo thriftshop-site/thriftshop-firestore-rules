@@ -45,3 +45,4 @@ In Flutter run `firebase emulators:start`
 -   [Firebase Emulator](https://codelabs.developers.google.com/firebase-emulator#0)
 -   [Firebase Emulator Test](https://developers.google.com/codelabs/firebase-emulator-test-rules#0)
 -   [Local development with Firebase Emulator Suite](https://www.youtube.com/watch?v=yAFQVjxNWE8)
+-   Read this for [Exporting Data from Production](https://cloud.google.com/sdk/gcloud/reference/beta/firestore/export)
