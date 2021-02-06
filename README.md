@@ -46,3 +46,10 @@ In Flutter run `firebase emulators:start`
 -   [Firebase Emulator Test](https://developers.google.com/codelabs/firebase-emulator-test-rules#0)
 -   [Local development with Firebase Emulator Suite](https://www.youtube.com/watch?v=yAFQVjxNWE8)
 -   Read this for [Exporting Data from Production](https://cloud.google.com/sdk/gcloud/reference/beta/firestore/export)
+
+## Build Status
+
+[![Actions Status][gh-actions-badge]][gh-actions]
+
+[gh-actions]: https://github.com/thriftshop-site/thriftshop-firestore-rules/actions
+[gh-actions-badge]: https://github.com/thriftshop-site/thriftshop-firestore-rules/workflows/CI%20Tests/badge.svg
