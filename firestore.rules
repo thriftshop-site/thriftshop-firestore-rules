@@ -6,6 +6,7 @@ service cloud.firestore {
       allow create:
       if request.auth.uid == userId
         && request.resource.data.createdAt == request.time;
+      // allow create: if !exists(/databases/$(database)/documents/users/$(request.resource.id));
     }
     match /rooms/{roomId} {
       allow read;

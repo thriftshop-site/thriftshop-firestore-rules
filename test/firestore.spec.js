@@ -42,12 +42,12 @@ after(async () => {
   const coverageFile = 'firestore-coverage.html';
   const fstream = fs.createWriteStream(coverageFile);
   await new Promise((resolve, reject) => {
-      http.get(COVERAGE_URL, (res) => {
-        res.pipe(fstream, { end: true });
+    http.get(COVERAGE_URL, (res) => {
+      res.pipe(fstream, { end: true });
 
-        res.on("end", resolve);
-        res.on("error", reject);
-      });
+      res.on("end", resolve);
+      res.on("error", reject);
+    });
   });
 
   console.log(`View firestore rule coverage information at ${coverageFile}\n`);
