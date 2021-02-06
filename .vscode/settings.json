@@ -1,3 +1,4 @@
 {
-    "firestorerules.usePrettierFormatter": true
+    "firestorerules.usePrettierFormatter": true,
+    "files.insertFinalNewline": true
 }
